@@ -81,6 +81,24 @@ Can do and access all the API expect
  - View All, Create and delete Merchant
 ```
 
+### HEROKU
+
+1. Endpoint to heroku  -> https://merchant-management.herokuapp.com/
+2. Free database mysql
+```sh
+DB_CONNECTION=mysql
+DB_HOST=sql6.freemysqlhosting.net
+DB_PORT=3306
+DB_DATABASE=sql6425686
+DB_USERNAME=sql6425686
+DB_PASSWORD=UF8ueedEqz
+```
+
+
+
+### Notes
+If using heroku endpoint may takes time to load response because using mysql free remote
+
 
 
 
