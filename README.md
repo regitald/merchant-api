@@ -41,6 +41,27 @@ php artisan db:seed
 
 1. Import the postman Documentation [Merchant Management](https://www.getpostman.com/collections/8844c3ca147152445793)
 2. Setup the postman variables 
+```sh
+{
+	"id": "9fd09c28-6c20-4d11-af6a-786fb484ea14",
+	"name": "Merchant Management",
+	"values": [
+		{
+			"key": "BASE_URL",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "TOKEN",
+			"value": "",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2021-07-16T07:32:45.542Z",
+	"_postman_exported_using": "Postman/8.7.0"
+}
+```
 3. Get Session token to start aplication by hitting login API with superadmin credential 
 ```sh
 email:superadmin@mail.com
